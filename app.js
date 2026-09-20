@@ -130,7 +130,7 @@ function toCsvValue(value) {
 exportBtn.addEventListener("click", () => {
   if (loans.length === 0) return;
 
-  const header = ["Numero d'or", "Nom de l'eleve", "Titre du livre", "Date"];
+  const header = ["Numero d'ordre", "Nom de l'eleve", "Titre du livre", "Date"];
   const rows = loans.map((loan) => [
     loan.numeroOr,
     loan.nomEleve,

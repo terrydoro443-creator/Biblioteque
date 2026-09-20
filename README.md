@@ -1,6 +1,6 @@
 # Bibliothèque
 
-Petit site pour enregistrer les emprunts de livres à l'école : numéro d'or de l'élève, nom de l'élève et titre du livre emprunté.
+Petit site pour enregistrer les emprunts de livres à l'école : numéro d'ordre de l'élève, nom de l'élève et titre du livre emprunté.
 
 ## Utilisation
 
