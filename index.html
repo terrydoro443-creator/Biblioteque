@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bibliothèque — Emprunts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>📚 Bibliothèque de l'école</h1>
+    <p class="subtitle">Enregistrer et retrouver les emprunts de livres</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Nouvel emprunt</h2>
+      <form id="loan-form">
+        <div class="field">
+          <label for="numero-or">Numéro d'or</label>
+          <input type="text" id="numero-or" name="numero-or" placeholder="Ex. 123" required inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="nom-eleve">Nom de l'élève</label>
+          <input type="text" id="nom-eleve" name="nom-eleve" placeholder="Ex. Dupont Léa" required>
+        </div>
+        <div class="field">
+          <label for="titre-livre">Titre du livre</label>
+          <input type="text" id="titre-livre" name="titre-livre" placeholder="Ex. Le Petit Prince" required>
+        </div>
+        <button type="submit">Ajouter l'emprunt</button>
+      </form>
+      <p id="form-message" class="message" role="status"></p>
+    </section>
+
+    <section class="card">
+      <div class="list-header">
+        <h2>Emprunts enregistrés</h2>
+        <input type="search" id="search" placeholder="Rechercher par numéro d'or, nom ou livre...">
+      </div>
+
+      <div class="table-wrap">
+        <table id="loans-table">
+          <thead>
+            <tr>
+              <th>Numéro d'or</th>
+              <th>Nom de l'élève</th>
+              <th>Titre du livre</th>
+              <th>Date</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="loans-body"></tbody>
+        </table>
+        <p id="empty-message" class="empty">Aucun emprunt enregistré pour le moment.</p>
+      </div>
+
+      <div class="list-footer">
+        <span id="count-label"></span>
+        <button id="export-btn" type="button" class="secondary">Exporter en CSV</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Les données sont enregistrées uniquement dans ce navigateur.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
