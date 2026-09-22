@@ -51,3 +51,17 @@ Ouvre `rupture-titan/index.html` dans ton navigateur (le fichier `rupture-titan/
 - Choisis ton personnage sur l'écran d'accueil ; vaincs les 3 boss pour gagner
 
 Une version en ligne, jouable sans rien installer, est disponible ici : https://claude.ai/artifact/G1mjZsFCkDWh3jT4Ls76Ts
+
+## Zone Rouge 🎯 (3D, FPS à la Call of Duty)
+
+Un jeu de tir à la première personne en 3D : vise avec la souris/le doigt, tire sur les bots hostiles, recharge, survis le plus longtemps possible dans l'arène.
+
+### Comment jouer
+
+Ouvre `zone-rouge/index.html` dans ton navigateur (le fichier `zone-rouge/three.min.js` doit rester à côté).
+
+- **ZQSD** : se déplacer, **souris** : viser, **clic gauche** : tirer, **R** : recharger
+- Sur téléphone : joystick à gauche pour bouger, glisse n'importe où à droite pour viser (vraie vue à la première personne), bouton pour tirer
+- Les bots réapparaissent en continu — enchaîne les éliminations et tiens le plus longtemps possible avant de tomber
+
+Une version en ligne, jouable sans rien installer, est disponible ici : https://claude.ai/artifact/75AaNENp31Kt8gM2TyeSU2
