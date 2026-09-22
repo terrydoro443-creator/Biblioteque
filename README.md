@@ -35,3 +35,19 @@ Ouvre `lumen-dash/index.html` dans ton navigateur (le fichier `lumen-dash/three.
 Meilleur score et skin choisi sont sauvegardés automatiquement dans le navigateur.
 
 Une version en ligne, jouable sans rien installer, est aussi disponible ici : https://claude.ai/artifact/XkmXf3nwnZbcGJd7QwUSiT
+
+## Rupture Titan ⚔️ (3D, combat de boss)
+
+Un jeu de combat 3D en arène : affronte 3 boss d'affilée, chacun avec ses propres attaques télégraphiées à esquiver.
+
+### Comment jouer
+
+Ouvre `rupture-titan/index.html` dans ton navigateur (le fichier `rupture-titan/three.min.js` doit rester à côté).
+
+- Déplacement : flèches/ZQSD, ou joystick tactile à gauche sur mobile
+- **Espace** ou bouton ⚔ : frapper (le personnage fait toujours face au boss automatiquement)
+- **Maj** ou bouton ⤺ : esquiver (brève invincibilité)
+- Les boss s'illuminent juste avant d'attaquer (attaque au corps-à-corps, onde de choc au sol, ou charge) — déplace-toi ou esquive pendant ce court laps de temps
+- Choisis ton personnage sur l'écran d'accueil ; vaincs les 3 boss pour gagner
+
+Une version en ligne, jouable sans rien installer, est disponible ici : https://claude.ai/artifact/G1mjZsFCkDWh3jT4Ls76Ts
